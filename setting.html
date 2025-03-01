@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="settings-container">
+        <h2>⚙️ Settings</h2>
+
+        <!-- User Profile Section -->
+        <div class="profile-section">
+            <h3>👤 Profile Information</h3>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Your Name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Your Email">
+
+            <label for="contact">Contact Number:</label>
+            <input type="text" id="contact" placeholder="Your Contact Number">
+
+            <button class="save-btn">Save Changes</button>
+        </div>
+
+        <!-- Change Password Section -->
+        <div class="password-section">
+            <h3>🔑 Change Password</h3>
+            <label for="old-password">Old Password:</label>
+            <input type="password" id="old-password" placeholder="Enter Old Password">
+
+            <label for="new-password">New Password:</label>
+            <input type="password" id="new-password" placeholder="Enter New Password">
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" placeholder="Confirm New Password">
+
+            <button class="save-btn">Update Password</button>
+        </div>
+
+        <!-- Notification Preferences -->
+        <div class="notification-section">
+            <h3>🔔 Notification Preferences</h3>
+            <label>
+                <input type="checkbox"> Enable Email Notifications
+            </label>
+            <label>
+                <input type="checkbox"> Enable SMS Notifications
+            </label>
+
+            <button class="save-btn">Save Preferences</button>
+        </div>
+
+        <!-- Back Button -->
+        <a href="dashboard.html" class="back-btn">← Back to Dashboard</a>
+    </div>
+</body>
+</html>
